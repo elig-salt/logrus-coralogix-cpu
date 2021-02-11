@@ -60,7 +60,7 @@ func main() {
 	}
 
 	// COMMENT THE NEXT LINE OUT - and see cpu difference
-	// attachCoralogixHook(log, privateKey, applicationKey, subsystemKey)
+	attachCoralogixHook(log, privateKey, applicationKey, subsystemKey)
 
 	go runLogs(log)
 	<-time.After(2 * time.Minute)
