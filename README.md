@@ -21,3 +21,5 @@ make profile
 Observe the CPU.
 
 4. Uncomment line 63 in main.go, and repeat steps 1-3
+
+Observe the CPU.
